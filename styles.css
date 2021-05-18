@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+
+a {
+  text-decoration: none;
+  color: inherit;
+  padding: 10px;
+}
+
+nav {
+  background-color: darkblue;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+nav li {
+  list-style-type: none;
+  margin-left: 25px;
+  padding: 5px;
+}
+
+nav li:first-child {
+  margin-left: 0px;
+}
+
+nav input:focus {
+  border: 2px solid aqua;
+  outline: none;
+}
+
+.currentpage {
+  background-color: steelblue;
+}
+
+nav li:hover {
+  background-color: lightblue;
+}
+
+footer a {
+  display: flex;
+  flex-direction: row;
+}
+
+footer a:hover {
+  color: lightblue;
+  font-weight: bold;
+}
+
+footer a:active {
+  color: red;
+  font-style: italic;
+}
+
+footer a:visited {
+  color: yellow;
+}
+
+textarea:focus {
+  color: green;
+  font-size: 20px;
+}
